@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D071F9;
+    padding: 0 10px ;
+}
+
+.container{
+    
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    margin: 15px auto;
+    padding: 6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container .title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #D071F9;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container .form{
+    width: 100%;
+}
+
+.container .form .input-field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.container .form .input-field .input{
+    outline: none;
+    font-size: 15px;
+    padding: 4px 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #D071F9;
+    transition: all 0.5s ease;
+}
+
+
+
+.container .form .input-field label{
+     width: 200px;
+     font-size: 15px;
+     margin-right: 10px;
+}
+
+.container .form .input-field textarea{
+    resize: none ;
+    width: 100%;
+    height: 70px;
+    border: 1px solid #D071F9;
+    outline: none;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.container .form .input-field .select{
+    position: relative;
+    width: 100%;
+    border: 1px solid #D071F9;
+    outline: none;
+}
+
+.container .form .input-field .selectbox{
+    position: relative;
+    width: 100%;
+    border: 1px solid #D071F9;
+    outline: none;
+}
+
+.container .form .input-field p{
+    font-size: 15px;
+    color: #757575;
+}
+
+.container .form .input-field .check{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.container .form .input-field .btn{
+   margin:  0 auto;
+   padding: 8px;
+   background-color: #D071F9;
+}
+
+.container .form .input-field .btn:hover{
+    color: aqua;    
+}
+
+@media (max-width: 420px){
+    .container .form .input-field{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container .form .input-field label{
+        margin-bottom: 5px;
+    }
+
+    .container .form .input-field.terms{
+        flex-direction: row;
+    }
+    
+    }
+
+
+
